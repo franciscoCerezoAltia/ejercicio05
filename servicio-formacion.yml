@@ -1,0 +1,8 @@
+server:
+  port: 7000
+  servlet:
+    context-path: /formaciones
+eureka:
+  client:
+    service-url:
+      defaultzone: http://localhost:8761/eureka
