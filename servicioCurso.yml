@@ -12,12 +12,10 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher        
-
-server:
-
-  servlet:
-    context-path: /cursos
 eureka:
   client:
     service-url:
       defaultzone: http://localhost:8761/eureka
+server:
+  servlet:
+    context-path: /cursos
