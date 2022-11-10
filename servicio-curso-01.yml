@@ -9,6 +9,9 @@ spring:
       naming:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher        
 
 server:
   port: 8080
