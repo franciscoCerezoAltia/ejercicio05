@@ -16,6 +16,10 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher 
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher        
+      
 server:
   port: 8081
 eureka:
