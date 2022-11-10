@@ -1,6 +1,7 @@
 server:
   port: 7000
-
+  servlet:
+    context-path: /formacion
 eureka:
   client:
     service-url:
