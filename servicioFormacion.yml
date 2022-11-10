@@ -6,6 +6,8 @@ eureka:
   client:
     service-url:
       defaultzone: http://localhost:8761/eureka
+  instance:
+    hostName: localhost      
 spring:
   mvc:
     pathmatch:
