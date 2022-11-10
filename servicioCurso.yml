@@ -14,12 +14,10 @@ spring:
       matching-strategy: ant-path-matcher        
 
 server:
-  port: 8080
+
   servlet:
     context-path: /cursos
 eureka:
-  instance:
-    instance-id: instancia01
   client:
     service-url:
       defaultzone: http://localhost:8761/eureka
