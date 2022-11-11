@@ -21,4 +21,3 @@ eureka:
 server:
   servlet:
     context-path: /cursos
-  port: 8080
